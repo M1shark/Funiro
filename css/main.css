@@ -97,7 +97,8 @@ a {
 }
 
 .is-hidden {
-  display: none !important; /* stylelint-disable-line declaration-no-important */
+  display: none !important;
+  /* stylelint-disable-line declaration-no-important */
 }
 
 .btn-reset {
@@ -163,6 +164,30 @@ a {
 
 .page--ios .dis-scroll {
   position: relative;
+}
+
+.show-more {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 32px;
+  max-width: 245px;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+  background: var(--light);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--orange);
+  margin-bottom: 24px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  border: 1px solid #E89F71;
+}
+.show-more:hover {
+  color: var(--light);
+  background: var(--orange);
 }
 
 .swiper-pagination-bullets {
@@ -1230,29 +1255,6 @@ a {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-.products__show-item {
-  margin: 0 auto;
-  display: inline-block;
-  margin-top: 32px;
-  max-width: 245px;
-  width: 100%;
-  padding: 12px;
-  text-align: center;
-  background: var(--light);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 150%;
-  color: var(--orange);
-  margin-bottom: 24px;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  border: 1px solid #E89F71;
-}
-.products__show-item:hover {
-  color: var(--light);
-  background: var(--orange);
 }
 
 .rooms {

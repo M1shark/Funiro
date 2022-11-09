@@ -210,7 +210,7 @@ const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".rooms__slide
   \****************************************/
 /***/ (() => {
 
-const showMore = document.querySelector(".products__show-item");
+const showMore = document.querySelector(".show-more");
 let items = 6;
 const productsAll = document.querySelectorAll(".products__item").length;
 showMore.addEventListener('click', () => {
