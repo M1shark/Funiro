@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="eu" class="page">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="theme-color" content="#111111" />
+  <title>Funiro</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css"
+    integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="logo nav__logo">Funiro.</a>
+        <nav class="nav" title="">
+          <div class="nav__menu" data-menu>
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <div class="nav__wrapper">
+                  <a class="nav__link">Products</a>
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <ul class="nav__dropdawn list-reset">
+                  <li class="nav__dropdawn-item">
+                    <a href="#" class="nav__dropdawn-link">Products 1</a>
+                  </li>
+                  <li class="nav__dropdawn-item">
+                    <a href="#" class="nav__dropdawn-link">Products 2</a>
+                  </li>
+                  <li class="nav__dropdawn-item">
+                    <a href="#" class="nav__dropdawn-link">Products 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <div class="nav__wrapper">
+                  <a class="nav__link">Rooms</a> <span></span>
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <ul class="nav__dropdawn list-reset">
+                  <li class="nav__dropdawn-item">
+                    <a href="#" class="nav__dropdawn-link">Rooms 1</a>
+                  </li>
+                  <li class="nav__dropdawn-item">
+                    <a href="#" class="nav__dropdawn-link">Rooms 2</a>
+                  </li>
+                  <li class="nav__dropdawn-item">
+                    <a href="#" class="nav__dropdawn-link">Rooms 3</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav__item">
+                <div class="nav__wrapper">
+                  <a href="#" class="nav__link">Inspirations</a>
+                </div>
+              </li>
+            </ul>
+            <form action="#" class="form">
+              <label class="form__label">
+                <input type="text" name="search" class="input-reset form__input"
+                  placeholder="Search for minimalist chair" />
+              </label>
+            </form>
+          </div>
+          <div class="nav__user">
+            <div class="nav__heart">
+              <svg class="">
+                <use xlink:href="img/sprite.svg#heart"></use>
+              </svg>
+            </div>
+            <div class="nav__cart">
+              <svg class="">
+                <use xlink:href="img/sprite.svg#cart"></use>
+              </svg>
+            </div>
+            <div class="nav__avatar"><img src="img/avatar.svg" alt="avatar" /></div>
+          </div>
+          <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+            <span class="burger__line"></span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">High-Quality Furniture Just For You</h1>
+            <p class="hero__text">
+              Our furniture is made from selected and best quality materials that are
+              suitable for your dream home
+            </p>
+            <a href="" class="hero__btn">Shop Now</a>
+          </div>
+          <div class="hero__slider">
+            <div class="hero__control">
+              <div class="hero__dots"></div>
+              <div class="hero__arrow">
+                <div class="hero__arrow-prev">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#arrow-slider"></use>
+                  </svg>
+                </div>
+                <div class="hero__arrow-next">
+                  <svg class="">
+                    <use xlink:href="img/sprite.svg#arrow-slider"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="swiper hero__sliders">
+              <div class="swiper-wrapper swiper-body">
+                <div class="swiper-slide">
+                  <div class="hero__slider-body">
+                    <div class="hero__slider-img">
+                      <picture>
+                        <source srcset="img/hero-img-1.avif" type="image/avif" />
+                        <source srcset="img/hero-img-1.webp" type="image/webp" />
+                        <img loading="lazy" src="img/hero-img-1.jpg" class="image" width="934" height="623" alt="" />
+                      </picture>
+                    </div>
+                    <div class="hero__slider-content" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%">
+                      <h2 class="hero__slider-title">Bohauss</h2>
+                      <p class="hero__slider-text">Luxury big sofa 2-seat</p>
+                      <p class="hero__slider-price">Rp 17.000.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__slider-body">
+                    <div class="hero__slider-img">
+                      <picture>
+                        <source srcset="img/hero-img-1.avif" type="image/avif" />
+                        <source srcset="img/hero-img-1.webp" type="image/webp" />
+                        <img loading="lazy" src="img/hero-img-1.jpg" class="image" width="934" height="623" alt="" />
+                      </picture>
+                    </div>
+                    <div class="hero__slider-content" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%">
+                      <h2 class="hero__slider-title">Bohauss</h2>
+                      <p class="hero__slider-text">Luxury big sofa 2-seat</p>
+                      <p class="hero__slider-price">Rp 17.000.000</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__slider-body">
+                    <div class="hero__slider-img">
+                      <picture>
+                        <source srcset="img/hero-img-1.avif" type="image/avif" />
+                        <source srcset="img/hero-img-1.webp" type="image/webp" />
+                        <img loading="lazy" src="img/hero-img-1.jpg" class="image" width="934" height="623" alt="" />
+                      </picture>
+                    </div>
+                    <div class="hero__slider-content" data-swiper-parallax-opacity="0" data-swiper-parallax-x="-100%">
+                      <h2 class="hero__slider-title">Bohauss</h2>
+                      <p class="hero__slider-text">Luxury big sofa 2-seat</p>
+                      <p class="hero__slider-price">Rp 17.000.000</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="container benefits__container">
+          <div class="benefits__body">
+            <div class="benefits__item">
+              <div class="benefits__icon">
+                <img loading="lazy" src="img/trophy.svg" class="image" width="40" height="40" alt="">
+              </div>
+              <div class="benefits__content">
+                <h3 class="benefits__title">High Quality</h3>
+                <p class="benefits__text">crafted from top materials</p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__icon">
+                <img loading="lazy" src="img/trophy.svg" class="image" width="40" height="40" alt="">
+              </div>
+              <div class="benefits__content">
+                <h3 class="benefits__title">Warrany Protection</h3>
+                <p class="benefits__text">Over 2 years</p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__icon">
+                <img loading="lazy" src="img/trophy.svg" class="image" width="40" height="40" alt="">
+              </div>
+              <div class="benefits__content">
+                <h3 class="benefits__title">Free Shipping</h3>
+                <p class="benefits__text">Order over 150 $</p>
+              </div>
+            </div>
+            <div class="benefits__item">
+              <div class="benefits__icon">
+                <img loading="lazy" src="img/trophy.svg" class="image" width="40" height="40" alt="">
+              </div>
+              <div class="benefits__content">
+                <h3 class="benefits__title">24 / 7 Support</h3>
+                <p class="benefits__text">Dedicated support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <h2 class="products__title">Our Products</h2>
+          <div class="products__col">
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-price">
+                  -30$
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-1.avif" type="image/avif">
+                    <source srcset="img/products-1.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-1.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Syltherine
+                  </h5>
+                  <p class="products__content-descr">Stylish cafe chair</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 2.500.000</div>
+                    <div class="products__content-old__price">Rp 3.500.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-price">
+                  -50$
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-2.avif" type="image/avif">
+                    <source srcset="img/products-2.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-2.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Lolito
+                  </h5>
+                  <p class="products__content-descr">Luxury big sofa</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 7.000.000</div>
+                    <div class="products__content-old__price">Rp 14.000.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-new">
+                  new
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-3.avif" type="image/avif">
+                    <source srcset="img/products-3.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-3.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Respira
+                  </h5>
+                  <p class="products__content-descr">Minimalist fan</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 500.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-">
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-4.avif" type="image/avif">
+                    <source srcset="img/products-4.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-4.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Grifo
+                  </h5>
+                  <p class="products__content-descr">Night lamp</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 1.500.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-new">
+                  new
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-5.avif" type="image/avif">
+                    <source srcset="img/products-5.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-5.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Muggo
+                  </h5>
+                  <p class="products__content-descr">Small mug</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 150.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-price">
+                  -50%
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-6.avif" type="image/avif">
+                    <source srcset="img/products-6.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-6.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Pingky
+                  </h5>
+                  <p class="products__content-descr">Cute bed set</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 7.000.000</div>
+                    <div class="products__content-old__price">Rp 7.000.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-new">
+                  new
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-7.avif" type="image/avif">
+                    <source srcset="img/products-7.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-7.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Potty
+                  </h5>
+                  <p class="products__content-descr">Cute bed set</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 500.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="products__item">
+              <div class="product__body">
+                <div class="products__label products-label-price">
+                  -50%
+                </div>
+                <div class="products__img">
+                  <picture>
+                    <source srcset="img/products-8.avif" type="image/avif">
+                    <source srcset="img/products-8.webp" type="image/webp">
+                    <img loading="lazy" src="img/products-8.jpg" class="image" width="285" height="301" alt="products">
+                  </picture>
+                </div>
+                <div class="products__content">
+                  <h5 class="products__content-title">
+                    Leviosa
+                  </h5>
+                  <p class="products__content-descr">Stylish cafe chair</p>
+                  <div class="products__content-prices">
+                    <div class="products__content-price">Rp 2.500.000</div>
+                  </div>
+                </div>
+                <div class="products__overlay">
+                  <a href="" class="products__overlay-link">Add to cart</a>
+                  <div class="products__ovelray-wrapper">
+                    <a href="" class="products__overlay-share">share</a>
+                    <a href="" class="products__overlay-like">like</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products__show-more">
+            <btn class="products__show-item btn-reset">Show More</btn>
+          </div>
+        </div>
+      </section>
+
+      <section class="rooms">
+        <div class="container rooms__container">
+          <div class="rooms__content">
+            <h2 class="rooms__title">50+ Beautiful rooms inspiration</h2>
+            <p class="rooms__text">Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <a href="#" class="rooms__btn">Explore More</a>
+          </div>
+          <div class="rooms__sliders">
+            <div class="swiper rooms__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide rooms__slide">
+                  <div class="rooms__body">
+                    <div class="rooms__slider-img">
+                      <img loading="lazy" src="img/rooms-img-1.jpg" class="image" width="372" height="486" alt="rooms">
+                    </div>
+                    <div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%" class="rooms__slider-content">
+                      <h4 class="rooms__slider-title">01 <span></span> Bed Room</h4>
+                      <div class="rooms__slider-text">Inner Peace</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide rooms__slide">
+                  <div class="rooms__body">
+                    <div class="rooms__slider-img">
+                      <img loading="lazy" src="img/rooms-img-2.jpg" class="image" width="372" height="486" alt="rooms">
+                    </div>
+                    <div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%" class="rooms__slider-content">
+                      <h4 class="rooms__slider-title">02 <span></span> Bed Room</h4>
+                      <div class="rooms__slider-text">Inner Peace</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide rooms__slide">
+                  <div class="rooms__body">
+                    <div class="rooms__slider-img">
+                      <img loading="lazy" src="img/rooms-img-3.jpg" class="image" width="372" height="486" alt="rooms">
+                    </div>
+                    <div data-swiper-parallax-opacity="0" data-swiper-parallax-y="-100%" class="rooms__slider-content">
+                      <h4 class=" rooms__slider-title">03 <span></span> Bed Room</h4>
+                      <div class="rooms__slider-text">Inner Peace</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rooms__slider-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tips">
+        <div class="container tips__container">
+          <h2 class="tips__title">Tips & Tricks</h2>
+          <div class="tips__sliders">
+            <div class="swiper tips__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide tips__slide">
+                  <a href="#" class="tips__slider-body">
+                    <div class="tips__slider-img">
+                      <picture>
+                        <source srcset="img/tips-img-1.avif" type="image/avif">
+                        <source srcset="img/tips-img-1.webp" type="image/webp">
+                        <img loading="lazy" src="img/tips-img-1.jpg" class="image" width="391" height="251"
+                          alt="Tips & Tricks">
+                      </picture>
+                    </div>
+                    <div class="tips__slider-content">
+                      <h4 class="tips__slider-title">Solution for clean look working
+                        space</h4>
+                      <div class="tips__slider-data">10 jan 2020</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide tips__slide">
+                  <a href="#" class="tips__slider-body">
+                    <div class="tips__slider-img">
+                      <picture>
+                        <source srcset="img/tips-img-1.avif" type="image/avif">
+                        <source srcset="img/tips-img-1.webp" type="image/webp">
+                        <img loading="lazy" src="img/tips-img-1.jpg" class="image" width="391" height="251"
+                          alt="Tips & Tricks">
+                      </picture>
+                    </div>
+                    <div class="tips__slider-content">
+                      <h4 class="tips__slider-title">Solution for clean look working
+                        space</h4>
+                      <div class="tips__slider-data">10 jan 2020</div>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide tips__slide">
+                  <a href="#" class="tips__slider-body">
+                    <div class="tips__slider-img">
+                      <picture>
+                        <source srcset="img/tips-img-1.avif" type="image/avif">
+                        <source srcset="img/tips-img-1.webp" type="image/webp">
+                        <img loading="lazy" src="img/tips-img-1.jpg" class="image" width="391" height="251"
+                          alt="Tips & Tricks">
+                      </picture>
+                    </div>
+                    <div class="tips__slider-content">
+                      <h4 class="tips__slider-title">Solution for clean look working
+                        space</h4>
+                      <div class="tips__slider-data">10 jan 2020</div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tips-slider__dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="share">
+        <div class="share__container">
+          <span class="share__up-title">Share your setup with</span>
+          <h2 class="share__title">#FuniroFurniture</h2>
+          <div class="share__body">
+            <div class="share__content">
+              <div class="share__colum">
+                <div class="share__row share__row-top">
+                  <a class="share__row-item" href="img/share-1.jpg">
+                    <picture>
+                      <source srcset="img/share-1.avif" type="image/avif">
+                      <source srcset="img/share-1.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-1.jpg" class="image" width="274" height="382" alt="share">
+                    </picture>
+                  </a>
+                  <a class="share__row-item" href="img/share-2.jpg">
+                    <picture>
+                      <source srcset="img/share-2.avif" type="image/avif">
+                      <source srcset="img/share-2.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-2.jpg" class="image" width="451" height="312" alt="share">
+                    </picture>
+                  </a>
+                </div>
+                <div class="share__row share__row-bottom">
+                  <a class="share__row-item" href="img/share-3.jpg">
+                    <picture>
+                      <source srcset="img/share-3.avif" type="image/avif">
+                      <source srcset="img/share-3.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-3.jpg" class="image" width="381" height="323" alt="share">
+                    </picture>
+                  </a>
+                  <a class="share__row-item" href="img/share-4.jpg">
+                    <picture>
+                      <source srcset="img/share-4.avif" type="image/avif">
+                      <source srcset="img/share-4.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-4.jpg" class="image" width="344" height="242" alt="share">
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <div class="share__colum">
+                <div class="share__row">
+                  <a class="share__row-item" href="img/share-5.jpg">
+                    <picture>
+                      <source srcset="img/share-5.avif" type="image/avif">
+                      <source srcset="img/share-5.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-5.jpg" class="image" width="295" height="392" alt="share">
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <div class="share__colum">
+                <div class="share__row share__row-top">
+                  <a class="share__row-item" href="img/share-6.jpg">
+                    <picture>
+                      <source srcset="img/share-6.avif" type="image/avif">
+                      <source srcset="img/share-6.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-6.jpg" class="image" width="290" height="348" alt="share">
+                    </picture>
+                  </a>
+                  <a class="share__row-item" href="img/share-7.jpg">
+                    <picture>
+                      <source srcset="img/share-7.avif" type="image/avif">
+                      <source srcset="img/share-7.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-7.jpg" class="image" width="425" height="433" alt="share">
+                    </picture>
+                  </a>
+
+                </div>
+                <div class="share__row share__row-bottom">
+                  <a class="share__row-item" href="img/share-8.jpg">
+                    <picture>
+                      <source srcset="img/share-8.avif" type="image/avif">
+                      <source srcset="img/share-8.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-8.jpg" class="image" width="178" height="242" alt="share">
+                    </picture>
+                  </a>
+                  <a class="share__row-item" href="img/share-9.jpg">
+                    <picture>
+                      <source srcset="img/share-9.avif" type="image/avif">
+                      <source srcset="img/share-9.webp" type="image/webp">
+                      <img loading="lazy" src="img/share-9.jpg" class="image" width="258" height="196" alt="share">
+                    </picture>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <ul class="footer__content list-reset">
+          <li class="footer__info">
+            <a href="" class="footer__logo logo">
+              Funiro.
+            </a>
+            <div class="footer__text">Worldwide furniture store since 2020. We sell over 1000+ branded products on our
+              website</div>
+            <div class="footer__loc">Sawojajar Malang, Indonesia</div>
+            <div class="footer__tel">+6289 456 3455</div>
+            <div class="footer__web">www.funiro.com</div>
+          </li>
+          <li class="footer__list">
+            <h5 class="footer__title">Menu</h5>
+            <ul class="footer__menu list-reset">
+              <a href="#" class="footer__link"> Products</a>
+              <a href="" class="footer__link">Rooms</a>
+              <a href="#" class="footer__link">Inspirations</a>
+              <a href="#" class="footer__link">About Us</a>
+              <a href="#" class="footer__link">Terms & Policy</a>
+            </ul>
+          </li>
+          <li class="footer__list">
+            <h5 class="footer__title">Account</h5>
+            <ul class="footer__menu list-reset">
+              <a href="#" class="footer__link">My Account</a>
+              <a href="#" class="footer__link">Checkout</a>
+              <a href="#" class="footer__link">My Cart</a>
+              <a href="#" class="footer__link">My catalog</a>
+            </ul>
+          </li>
+          <li class="footer__list">
+            <h5 class="footer__title">Stay Connected</h5>
+            <ul class="footer__menu list-reset">
+              <a href="#" class="footer__link">Facebook</a>
+              <a href="#" class="footer__link">Instagram</a>
+              <a href="#" class="footer__link">Twitter</a>
+            </ul>
+          </li>
+          <li class="footer__list">
+            <h5 class="footer__title">Stay Updated</h5>
+            <form action="#" class="footer__form">
+              <label class="footer__label">
+                <input type="text" name="Enter" class="input-reset footer__input" placeholder="Enter your email">
+              </label>
+              <button class="btn-reset footer__btn"><svg class="">
+                  <use xlink:href="img/sprite.svg#tg"></use>
+                </svg></button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
