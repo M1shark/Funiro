@@ -183,6 +183,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/swiper.esm.js");
 
+
 swiper__WEBPACK_IMPORTED_MODULE_0__["default"].use([swiper__WEBPACK_IMPORTED_MODULE_0__.Navigation, swiper__WEBPACK_IMPORTED_MODULE_0__.Pagination, swiper__WEBPACK_IMPORTED_MODULE_0__.Parallax]);
 const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".rooms__slider", {
   observer: true,
@@ -284,6 +285,20 @@ const swiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](".tips__slider
     el: ".tips-slider__dots",
     clickable: true,
     type: "bullets"
+  },
+  breakpoints: {
+    290: {
+      slidesPerView: 1,
+      spaceBetween: 30
+    },
+    780: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    1100: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
   }
 });
 
